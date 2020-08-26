@@ -21,13 +21,30 @@ section#home #b {
 	vertical-align: top;
 	width: 240px;
 	box-shadow: 0 20px 60px rgba(10, 10, 10, 0.05), 0 5px 10px rgba(10, 10, 10, 0.1), 0 1px 1px rgba(10, 10, 10, 0.2);
+	background-color: #fff;
+}
+
+section#home .hero-body {
+	background-color: #272727 !important;
+}
+
+section#home .title {
+	color: #fff !important;
+}
+
+section#home .subtitle {
+	color: #fff !important;
+}
+
+section#home .is-danger {
+	color: #fff !important;
 }
 
 section#home div#dropzone {
 	border: 1px solid #dbdbdb;
 	background-color: rgba(0, 0, 0, 0);
-    border-color: #ff3860;
-    color: #ff3860;
+    border-color: #33416a;
+    color: #45578c;
     display: none;
     width: 100%;
     border-radius: 3px;
@@ -45,7 +62,7 @@ section#home div#dropzone {
 }
 
 section#home div#uploads, section#home p#tokenContainer, section#home a#panel { display: none; }
-section#home div#dropzone:hover { background-color: #ff3860; border-color: #ff3860; color: #fff; }
+section#home div#dropzone:hover { background-color: #33416a; border-color: #33416a; color: #fff; }
 section#home h3#maxFileSize { font-size: 14px; }
 section#home h3#links span { padding-left: 5px; padding-right: 5px; }
 section#home img.logo { height: 200px; margin-top: 20px; }
@@ -101,11 +118,69 @@ section#auth input, section#auth a {
     box-shadow: 0 0 0;
 }
 
+section#login .hero-body {
+	background-color: #272727 !important;
+}
+
+section#login .title {
+	color: #fff !important;
+}
+
+section#login .subtitle {
+	color: #fff !important;
+}
+
+section#login .input-focus-border-color {
+	color: #33416a !important;
+}
+
 section#dashboard .table { font-size: 12px }
 section#dashboard div#table div.column { display:flex; width: 200px; height: 220px; margin: 9px; background: #f9f9f9; overflow: hidden; flex-wrap: wrap; align-items: center; }
 section#dashboard div#table div.column a { width: 100%; }
 section#dashboard div#table div.column a:first-child { height: 180px; }
 section#dashboard div#table div.column a img { width:200px; }
+
+section#dashboard div#panel {
+	background-color: #272727 !important;
+}
+
+section#dashboard.section {
+	background-color: #272727;
+}
+
+section#dashboard .title, .subtitle, .subtitle strong, .menu-label, .menu-list a, label {
+	color: #fff !important;
+}
+
+section#dashboard a:hover {
+	background-color: #33416a !important;
+}
+
+section#dashboard a.is-active {
+	background-color: #33416a !important;
+}
+
+section#dashboard .button.is-primary {
+	background-color: #33416a !important;
+	border-color: #33416a !important;
+}
+
+section#dashboard a {
+	color: #fff !important;
+}
+
+section#dashboard .button.is-danger.is-outlined {
+	border-color: #33416a !important;
+	background-color: #33416a !important;
+}
+
+section#dashboard input:focus {
+	border-color: #fff !important;
+}
+
+.sweet-alert button {
+	background-color: #33416a !important;
+}
 
 .select-wrapper {
 	text-align: center;
